@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Daniel, estudante de Desenvolvimento de Sistemas em Curvelo, MG. Conheça o EduRank, em desenvolvimento, e sua experiência com impressão 3D.">
+  <meta name="theme-color" content="#000000">
+  <title>Daniel | Desenvolvimento de Sistemas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Identidade: Daniel. -->
+      <a class="brand" href="#inicio" aria-label="Daniel — início">
+        <span class="brand-mark" aria-hidden="true">D<span>.</span></span>
+        <span>daniel<span class="brand-light">.dev</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" hidden>
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+        <span class="menu-label">Menu</span>
+      </button>
+      <nav id="menu-principal" class="site-nav" aria-label="Navegação principal">
+        <a href="#inicio" aria-current="location">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#formacao">Formação</a>
+        <a href="#projetos">Projetos</a>
+        <a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <section class="hero section-anchor" id="inicio" aria-labelledby="titulo-inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> ESTUDANTE DE DESENVOLVIMENTO DE SISTEMAS</p>
+          <p class="hero-intro">Olá, eu sou <strong>Daniel</strong> <span class="wave" aria-hidden="true">✳</span></p>
+          <h1 id="titulo-inicio">Ideias ganham<br>vida com <span class="accent-text">código.</span></h1>
+          <p class="hero-description">Sou estudante do ensino médio em tempo integral e do curso Técnico em Desenvolvimento de Sistemas. Idealizador do EduRank, conecto tecnologia, educação e soluções práticas em projetos com propósito.</p>
+          <dl class="hero-facts">
+            <div><dt>17 anos</dt><dd>idade</dd></div>
+            <div><dt>3 anos</dt><dd>dedicados aos estudos e ao desenvolvimento</dd></div>
+          </dl>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#edurank">Conheça o EduRank <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contato">Entrar em contato <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-footnote"><span class="small-code" aria-hidden="true">&lt;/&gt;</span> Desenvolvimento, educação e aprendizado contínuo.</div>
+        </div>
+
+        <!-- Ilustração feita com HTML e CSS: não depende de imagens externas. -->
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <span class="art-spark spark-one">+</span><span class="art-spark spark-two">+</span>
+          <div class="floating-badge badge-html">&lt;/&gt;<span>HTML</span></div>
+          <div class="code-window">
+            <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>sobre-mim.js</span><span class="window-code">{ }</span></div>
+            <div class="code-body">
+              <div class="code-comment">// tecnologia com propósito</div>
+              <div><span class="code-purple">const</span> <span class="code-blue">desenvolvedor</span> = {</div>
+              <div class="indent">nome: <span class="code-string">'Daniel'</span>,</div>
+              <div class="indent">projeto: <span class="code-string">'EduRank'</span>,</div>
+              <div class="indent">área: <span class="code-string">'Desenvolvimento'</span>,</div>
+              <div class="indent">movidoPor: [</div>
+              <div class="indent-double"><span class="code-string">'curiosidade'</span>,</div>
+              <div class="indent-double"><span class="code-string">'novos desafios'</span></div>
+              <div class="indent">],</div>
+              <div class="indent">aprendizado: <span class="code-purple">Infinity</span></div>
+              <div>};</div>
+              <div class="code-last"><span class="code-blue">desenvolver</span>(<span class="code-string">'novas ideias'</span>);<span class="code-cursor"></span></div>
+            </div>
+            <div class="window-status"><span><span class="status-dot"></span> Pronto para aprender</span><span>JavaScript</span></div>
+          </div>
+          <div class="floating-badge badge-js">JS</div>
+          <div class="learning-badge"><span class="learning-icon">✦</span><div>O próximo passo?<strong>Continuar criando.</strong></div></div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><a href="#sobre"><span aria-hidden="true">↓</span> Conheça minha trajetória</a><span class="hero-index">TECNOLOGIA <span aria-hidden="true">/</span> EDUCAÇÃO <span aria-hidden="true">/</span> DESENVOLVIMENTO</span></div>
+    </section>
+
+    <section class="section section-anchor about-section" id="sobre" aria-labelledby="titulo-sobre">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="section-number">01</span> SOBRE MIM</p>
+          <h2 id="titulo-sobre">Aprender na teoria.<br><span class="accent-text">Crescer na prática.</span></h2>
+          <p class="section-description">Minha trajetória reúne tecnologia, formação para o mercado e vontade de continuar aprendendo.</p>
+        </div>
+        <div class="about-grid">
+          <figure class="about-photo">
+            <img src="assets/daniel.jpg" alt="Retrato de Daniel" width="720" height="1280" loading="lazy" decoding="async">
+          </figure>
+          <div class="about-content">
+            <p>Sou <strong>Daniel, tenho 17 anos</strong> e há cerca de <strong>três anos estudo tecnologia e desenvolvimento de sistemas</strong>. Concilio o <strong>ensino médio em tempo integral</strong> com o curso <strong>Técnico em Desenvolvimento de Sistemas</strong>. Sou o idealizador do <strong>EduRank</strong>, uma plataforma educacional gamificada em desenvolvimento.</p>
+            <p>Minha formação também passa pela área de negócios, com cursos que realizei na <strong>Vallourec, por meio da CDL Curvelo</strong>.</p>
+            <p>Ao longo de <strong>um ano</strong>, estudei uma disciplina diferente a cada dois meses, combinando aulas e atividades práticas. Essa experiência ampliou minha visão sobre atendimento, organização e negócios, além de reforçar a importância de colocar o conhecimento em prática.</p>
+            <p>Participo da <strong>Liga STEAM</strong> e trabalhei com a <strong>Creality Ender-3 V2</strong> na produção de medalhas para o interclasse da escola. Essa prática envolveu preparação de arquivos G-code, testes de impressão e resolução de problemas de qualidade.</p>
+            <p>Também estudo <strong>música e viola de arco</strong>. A prática musical faz parte da minha trajetória e fortalece a disciplina, a constância e a atenção aos detalhes que levo para meus projetos.</p>
+            <div class="about-training">
+              <div class="about-training-heading">
+                <img class="about-training-logo" src="assets/cdl-curvelo.png" alt="Logo da CDL Curvelo" width="512" height="512" loading="lazy" decoding="async">
+                <div>
+                  <p class="about-training-label" id="titulo-cursos">Cursos que fazem parte da minha trajetória</p>
+                  <p class="about-training-school">CDL Curvelo</p>
+                </div>
+              </div>
+              <ul class="about-courses" aria-labelledby="titulo-cursos">
+                <li>Gerente de Caixa</li>
+                <li>Marketing Pessoal e Profissional</li>
+                <li>Gerente de Vendas</li>
+                <li>Empreendedorismo</li>
+                <li>Investimentos</li>
+              </ul>
+            </div>
+            <div class="about-values"><span><i aria-hidden="true">↗</i> Aprendizado contínuo</span><span><i aria-hidden="true">⌘</i> Conhecimento na prática</span><span><i aria-hidden="true">◇</i> Desenvolvimento profissional</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-anchor skills-section" id="habilidades" aria-labelledby="titulo-habilidades">
+      <div class="container">
+        <div class="section-topline"><div><p class="eyebrow"><span class="section-number">02</span> TECNOLOGIAS</p><h2 id="titulo-habilidades">Minha caixa de ferramentas<span class="purple-dot">.</span></h2></div><p class="section-aside">Desenvolvimento web<br>e fabricação digital.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-icon icon-purple" aria-hidden="true">&lt;/&gt;</span><h3>HTML5</h3><p>Estrutura semântica, organização do conteúdo e acessibilidade.</p><span class="skill-level">Neste portfólio</span></article>
+          <article class="skill-card"><span class="skill-icon icon-blue" aria-hidden="true">#</span><h3>CSS3</h3><p>Layouts responsivos, identidade visual e adaptação a diferentes telas.</p><span class="skill-level">Neste portfólio</span></article>
+          <article class="skill-card"><span class="skill-icon icon-purple" aria-hidden="true">JS</span><h3>JavaScript</h3><p>Navegação, eventos e interações com a página.</p><span class="skill-level">Neste portfólio</span></article>
+          <article class="skill-card"><span class="skill-icon icon-blue" aria-hidden="true">TS</span><h3>React e TypeScript</h3><p>Estudo de interfaces em componentes e organização de código com tipagem.</p><span class="skill-level">Em estudo · base do EduRank</span></article>
+          <article class="skill-card"><span class="skill-icon icon-purple" aria-hidden="true">~</span><h3>Tailwind CSS</h3><p>Estilização por classes utilitárias e consistência da interface.</p><span class="skill-level">Em estudo · base do EduRank</span></article>
+          <article class="skill-card"><span class="skill-icon icon-blue" aria-hidden="true">V</span><h3>Vite</h3><p>Ferramentas para desenvolvimento e preparação da aplicação web.</p><span class="skill-level">Em estudo · base do EduRank</span></article>
+          <article class="skill-card skill-card-practice"><span class="skill-icon icon-purple" aria-hidden="true">3D</span><h3>Impressão 3D e G-code</h3><p>Preparação de arquivos, ajustes, testes de impressão e diagnóstico de falhas de aderência e acabamento.</p><span class="skill-level">Na prática · medalhas do interclasse</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-anchor" id="formacao" aria-labelledby="titulo-formacao">
+      <div class="container education-grid">
+        <div class="section-heading"><p class="eyebrow"><span class="section-number">03</span> FORMAÇÃO E EXPERIÊNCIAS</p><h2 id="titulo-formacao">Uma base para<br><span class="accent-text">ir mais longe.</span></h2><p class="section-description">Teoria, prática e experiências que fazem parte da minha trajetória.</p></div>
+        <div class="education-track">
+          <article class="education-card"><span class="timeline-point" aria-hidden="true"></span><div class="education-meta"><span>Ensino médio e técnico</span><span class="status-pill">Em formação</span></div><h3>Técnico em Desenvolvimento de Sistemas</h3><p>Ensino médio em tempo integral e formação técnica, conectando fundamentos de programação à criação de projetos digitais.</p><div class="tags"><span>Desenvolvimento de sistemas</span><span>Programação</span><span>Projetos digitais</span></div></article>
+          <article class="education-card">
+            <span class="timeline-point" aria-hidden="true"></span>
+            <div class="education-meta"><span>Duração: 1 ano</span><span class="status-pill">Concluído</span></div>
+            <h3>Formação complementar em negócios</h3>
+            <p class="education-school">CDL Curvelo <span>· Cursos realizados na Vallourec</span></p>
+            <p>Cursos de Gerente de Caixa, Marketing Pessoal e Profissional, Gerente de Vendas, Empreendedorismo e Investimentos. Durante um ano, uma disciplina diferente foi estudada a cada dois meses, com aplicação dos conteúdos em atividades práticas.</p>
+            <div class="tags"><span>Gestão e vendas</span><span>Marketing</span><span>Empreendedorismo</span><span>Investimentos</span></div>
+          </article>
+          <article class="education-card">
+            <span class="timeline-point" aria-hidden="true"></span>
+            <div class="education-meta"><span>Participação</span><span class="status-pill">Em desenvolvimento</span></div>
+            <h3>Liga STEAM</h3>
+            <p>Participação na Liga STEAM como parte da minha trajetória de aprendizado e desenvolvimento profissional.</p>
+          </article>
+          <article class="education-card">
+            <span class="timeline-point" aria-hidden="true"></span>
+            <div class="education-meta"><span>Experiência prática</span><span class="status-pill">Projeto escolar</span></div>
+            <h3>Fabricação digital com a Ender-3 V2</h3>
+            <p>Produção de medalhas para o interclasse da escola, com preparação de arquivos G-code, configurações de impressão, testes e avaliação da qualidade das peças.</p>
+            <div class="tags"><span>Impressão 3D</span><span>Resolução de problemas</span><span>Prototipagem</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-anchor projects-section" id="projetos" aria-labelledby="titulo-projetos">
+      <div class="container">
+        <div class="section-topline"><div><p class="eyebrow"><span class="section-number">04</span> PROJETOS</p><h2 id="titulo-projetos">Tecnologia com propósito<span class="purple-dot">.</span></h2></div><p class="section-aside">Da ideia ao produto.<br>Conheça o que estou construindo.</p></div>
+        <article class="featured-project section-anchor" id="edurank" aria-labelledby="titulo-edurank">
+          <div class="featured-project-main">
+            <figure class="edurank-visual">
+              <img src="assets/edurank-logo.jpg" alt="Logo do EduRank: letras ER com um controle de jogo sobre um livro aberto" width="1254" height="1254" loading="lazy" decoding="async">
+              <figcaption>Identidade visual do EduRank</figcaption>
+            </figure>
+            <div class="featured-project-copy">
+              <div class="project-title-row"><span class="project-kind">PROJETO EM DESTAQUE · EDTECH</span><span class="status-pill">Em desenvolvimento</span></div>
+              <h3 id="titulo-edurank">EduRank</h3>
+              <p class="project-slogan">Estude. Evolua. Conquiste.</p>
+              <p class="featured-description">Plataforma educacional gamificada em desenvolvimento que propõe reconhecer participação, frequência e evolução escolar. A proposta reúne ferramentas para estudantes, professores, secretaria e gestores, conectando acompanhamento pedagógico e desafios colaborativos.</p>
+              <div class="tags"><span>React</span><span>TypeScript</span><span>EdTech</span><span>Gamificação</span></div>
+              <p class="project-role"><strong>Meu papel</strong> Concepção da solução, levantamento de requisitos, planejamento das funcionalidades e prototipação.</p>
+              <p class="project-availability">Em desenvolvimento · Demonstração pública ainda não disponível.</p>
+            </div>
+          </div>
+          <details class="edurank-details">
+            <summary>Conhecer o projeto <span aria-hidden="true">+</span></summary>
+            <div class="edurank-detail-content">
+              <div class="edurank-overview">
+                <section>
+                  <h4>O desafio</h4>
+                  <p>A rotina escolar nem sempre torna visível o esforço de cada estudante. O EduRank parte desse desafio: reconhecer participação, cooperação e evolução pessoal, além das notas.</p>
+                </section>
+                <section>
+                  <h4>A proposta</h4>
+                  <p>Reunir acompanhamento escolar e uma jornada de progressão com XP, patentes, conquistas e desafios em grupo. O objetivo é incentivar o envolvimento dos alunos e apoiar o trabalho dos educadores.</p>
+                </section>
+              </div>
+              <section class="edurank-modules">
+                <h4>Uma experiência para cada perfil</h4>
+                <p class="scope-note">Os módulos abaixo fazem parte da proposta e dependem de implementação, testes e validação.</p>
+                <div class="edurank-role-grid">
+                  <article><h5>Aluno</h5><p>Consulta de notas e frequência, jornada de progresso, conquistas, rankings e desafios colaborativos em guildas e duplas.</p></article>
+                  <article><h5>Professor</h5><p>Organização de turmas, atividades, avaliações e presença, com um Diário Escolar Digital proposto dentro do EduRank.</p></article>
+                  <article><h5>Secretaria</h5><p>Gestão de cadastros, históricos, notas e justificativas de faltas, respeitando as permissões de cada função.</p></article>
+                  <article><h5>Direção</h5><p>Painéis e relatórios para acompanhar frequência, participação e necessidades de apoio pedagógico.</p></article>
+                </div>
+              </section>
+              <section class="edurank-journey">
+                <h4>Jornada proposta</h4>
+                <ol><li>Participar das atividades</li><li>Registrar a evolução</li><li>Receber reconhecimento</li><li>Avançar em novos desafios</li></ol>
+              </section>
+              <div class="edurank-overview">
+                <section>
+                  <h4>Base técnica e planejamento</h4>
+                  <p>React, TypeScript, Vite e Tailwind CSS são tecnologias associadas à base do EduRank e ao meu aprendizado. TanStack, Supabase JS e PostgreSQL aparecem no planejamento técnico; as integrações ainda dependem de implementação e validação.</p>
+                  <div class="tags"><span>React</span><span>TypeScript</span><span>Vite</span><span>Tailwind CSS</span><span>TanStack</span><span>Supabase JS</span><span>PostgreSQL</span></div>
+                </section>
+                <section>
+                  <h4>Decisões de projeto</h4>
+                  <ul><li>Permissões específicas para cada perfil.</li><li>Registros escolares consistentes, com histórico de alterações.</li><li>Regras de pontuação claras e prevenção de recompensas duplicadas.</li><li>Gamificação separada da fonte oficial dos dados acadêmicos.</li></ul>
+                </section>
+              </div>
+              <section class="edurank-next">
+                <h4>Próximas etapas</h4>
+                <p>Revisar a implementação, validar permissões e fluxos críticos, testar acessibilidade e preparar uma demonstração com dados fictícios. Minijogos educacionais, personalização de avatares e acesso offline fazem parte das possibilidades de evolução.</p>
+              </section>
+            </div>
+          </details>
+        </article>
+
+        <article class="featured-project practical-project section-anchor" id="medalhas" aria-labelledby="titulo-medalhas">
+          <div class="featured-project-main">
+            <figure class="fabrication-visual">
+              <span class="project-kind">FABRICAÇÃO DIGITAL</span>
+              <a class="fabrication-image-link" id="printer-image-link" href="assets/impressora-3d.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar imagem da impressora 3D">
+                <img class="fabrication-image" src="assets/impressora-3d.png" alt="Impressora 3D Creality com carretel de filamento e painel de controle" width="420" height="420" loading="lazy" decoding="async">
+                <span class="fabrication-image-hint">Ampliar imagem <span aria-hidden="true">↗</span></span>
+              </a>
+              <figcaption>
+                <p class="fabrication-machine">Creality Ender-3 V2</p>
+                <p class="fabrication-material">Impressão FDM · Filamento PLA</p>
+                <ol class="fabrication-steps"><li>Preparar</li><li>Testar</li><li>Ajustar</li></ol>
+                <p class="fabrication-caption">Imagem de referência do equipamento.</p>
+              </figcaption>
+            </figure>
+            <div class="featured-project-copy">
+              <div class="project-title-row"><span class="project-kind">PROJETO ESCOLAR</span><span class="status-pill">Experiência prática</span></div>
+              <h3 id="titulo-medalhas">Medalhas para o interclasse</h3>
+              <p class="project-slogan">Da preparação do arquivo à avaliação da peça.</p>
+              <p class="featured-description">Participei da produção de medalhas para o interclasse da escola com a impressora Creality Ender-3 V2. A atividade aproximou planejamento, fabricação digital e resolução de problemas concretos.</p>
+              <div class="tags"><span>Ender-3 V2</span><span>PLA</span><span>G-code</span><span>Prototipagem</span></div>
+              <p class="project-role"><strong>Meu papel</strong> Preparação e uso de arquivos G-code, ajustes de configuração, testes de impressão, análise de falhas e avaliação da qualidade.</p>
+            </div>
+          </div>
+          <details class="edurank-details">
+            <summary>Ver processo e aprendizados <span aria-hidden="true">+</span></summary>
+            <div class="edurank-detail-content">
+              <div class="edurank-overview">
+                <section><h4>01 · Objetivo</h4><p>Produzir medalhas para o interclasse escolar, aplicando fabricação digital em uma atividade da escola.</p></section>
+                <section><h4>02 · Processo</h4><p>Preparar arquivos G-code, ajustar as configurações da impressora, realizar testes e acompanhar a qualidade das peças em PLA.</p></section>
+                <section><h4>03 · Desafios</h4><p>Identificar problemas de aderência e acabamento, analisar os resultados e fazer ajustes para melhorar as impressões.</p></section>
+                <section><h4>04 · Aprendizados</h4><p>Resolver problemas por meio de observação, testes e comparação de resultados. A experiência reforçou a importância da preparação e da atenção aos detalhes.</p></section>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <div class="concept-projects" aria-label="Conceitos de soluções para a escola">
+          <article class="project-card concept-card">
+            <span class="project-kind">CONCEITO · ORGANIZAÇÃO ESCOLAR</span>
+            <h3>Painel de chamada para o refeitório</h3>
+            <p>Proposta de painel para organizar a chamada das turmas no horário do almoço, com ordem de atendimento e informações visuais claras.</p>
+            <div class="tags"><span>Interface</span><span>Planejamento</span><span>Prototipação</span></div>
+            <p class="concept-status">Ideia em estudo · Sem implantação.</p>
+          </article>
+          <article class="project-card concept-card">
+            <span class="project-kind">CONCEITO · COMUNICAÇÃO ESCOLAR</span>
+            <h3>Organização da saída de turmas</h3>
+            <p>Proposta de comunicação por telas para orientar a saída das salas, coordenar horários e tornar os avisos mais claros nos momentos de circulação.</p>
+            <div class="tags"><span>UX/UI</span><span>Organização escolar</span><span>Prototipação</span></div>
+            <p class="concept-status">Ideia em estudo · Sem implantação.</p>
+          </article>
+        </div>
+
+        <details class="project-archive">
+          <summary>Conceitos de interface <span aria-hidden="true">+</span></summary>
+          <p class="projects-intro">Exemplos visuais de organização de tarefas, gestão de biblioteca e apresentação de um estúdio. São conceitos ilustrativos de interface.</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview preview-tasks" aria-hidden="true"><span class="preview-category">APLICAÇÃO WEB</span><div class="mini-app tasks-app"><div class="mini-toolbar"><b><span class="mini-logo">◈</span> TaskFlow</b><span>+ Nova tarefa</span></div><div class="mini-board"><div><small>A fazer <i>2</i></small><div class="mini-task"><em></em>Planejar interface<span>Design</span></div><div class="mini-task"><em class="blue-line"></em>Estruturar HTML<span>Desenvolvimento</span></div></div><div><small>Em progresso <i>1</i></small><div class="mini-task"><em class="blue-line"></em>Criar estilos<span>Desenvolvimento</span></div></div><div><small>Concluído <i>1</i></small><div class="mini-task completed"><em></em>Definir projeto<span>Planejamento</span></div></div></div></div></div>
+            <div class="project-body"><div class="project-title-row"><span class="project-number">01 /</span><span class="project-kind">Projeto fictício</span></div><h3>TaskFlow</h3><p>Um organizador de tarefas para deixar os estudos e as entregas do dia a dia em ordem.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div><details class="project-details"><summary>Sobre o projeto <span aria-hidden="true">+</span></summary><div><p><strong>Proposta:</strong> cadastrar tarefas, marcar conclusões e filtrar por situação.</p><p><strong>Aprendizado sugerido:</strong> manipulação do DOM, eventos e armazenamento local.</p><p class="example-note">Conceito ilustrativo de interface, sem demonstração pública.</p></div></details></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-library" aria-hidden="true"><span class="preview-category">SISTEMA DE GESTÃO</span><div class="mini-app library-app"><div class="mini-sidebar"><span>▥</span><i></i><i></i><i></i></div><div class="library-main"><div class="mini-toolbar"><b>BiblioTech</b><span>●</span></div><div class="mini-stats"><div><small>Acervo</small><b>128</b></div><div><small>Disponíveis</small><b>96</b></div></div><div class="mini-table"><div><span>Título</span><span>Status</span></div><div><span>Lógica de programação</span><i>Disponível</i></div><div><span>Introdução à web</span><i>Disponível</i></div><div><span>Aprendendo SQL</span><i>Disponível</i></div></div></div></div></div>
+            <div class="project-body"><div class="project-title-row"><span class="project-number">02 /</span><span class="project-kind">Projeto fictício</span></div><h3>BiblioTech</h3><p>Uma proposta de sistema para organizar o acervo e os empréstimos de uma biblioteca escolar.</p><div class="tags"><span>Python</span><span>SQL</span><span>Modelagem</span></div><details class="project-details"><summary>Sobre o projeto <span aria-hidden="true">+</span></summary><div><p><strong>Proposta:</strong> cadastrar livros e leitores e consultar empréstimos.</p><p><strong>Aprendizado sugerido:</strong> modelagem de dados, consultas SQL e regras de negócio.</p><p class="example-note">Conceito ilustrativo. Os números da prévia são fictícios; não representam um sistema implantado.</p></div></details></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-studio" aria-hidden="true"><span class="preview-category">SITE RESPONSIVO</span><div class="mini-app studio-app"><div class="mini-toolbar"><b>órbita<span>®</span></b><span>Estúdio &nbsp; Projetos &nbsp; Contato</span></div><div class="mini-studio-hero"><div><small>IDEIAS EM MOVIMENTO</small><b>Design que<br>conecta.</b><span class="mini-cta">Conheça o estúdio ↗</span></div><div class="studio-sculpture"><i></i><i></i><i></i></div></div><div class="studio-bottom">ESTRATÉGIA <span>✳</span> IDENTIDADE <span>✳</span> DIGITAL</div></div></div>
+            <div class="project-body"><div class="project-title-row"><span class="project-number">03 /</span><span class="project-kind">Projeto fictício</span></div><h3>Órbita Studio</h3><p>Uma página de apresentação para um estúdio criativo, pensada para diferentes tamanhos de tela.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>Responsividade</span></div><details class="project-details"><summary>Sobre o projeto <span aria-hidden="true">+</span></summary><div><p><strong>Proposta:</strong> apresentar serviços, trabalhos e canais de contato.</p><p><strong>Aprendizado sugerido:</strong> hierarquia visual, CSS Grid e adaptação para dispositivos móveis.</p><p class="example-note">Conceito ilustrativo de uma marca fictícia.</p></div></details></div>
+          </article>
+        </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section section-anchor contact-section" id="contato" aria-labelledby="titulo-contato">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="contact-copy">
+            <p class="eyebrow"><span class="section-number">05</span> CONTATO</p>
+            <h2 id="titulo-contato">Vamos construir<br><span>novas possibilidades.</span></h2>
+            <p class="contact-description">Para conversar sobre projetos, oportunidades de aprendizagem, estágio ou desenvolvimento de sistemas, entre em contato.</p>
+            <p class="contact-location"><span aria-hidden="true">⌖</span> Curvelo, Minas Gerais · Brasil</p>
+          </div>
+          <div class="contact-info">
+            <section class="contact-method" aria-labelledby="titulo-email">
+              <h3 class="contact-label" id="titulo-email">E-MAIL</h3>
+              <a id="contact-email" class="email-link" href="mailto:perigoso248@gmail.com">perigoso248@gmail.com</a>
+              <div class="contact-actions">
+                <a class="button button-secondary" href="mailto:perigoso248@gmail.com">Enviar e-mail <span aria-hidden="true">↗</span></a>
+                <button id="copy-email" class="copy-button" type="button" data-copy-target="contact-email" data-copy-label="E-mail" hidden>Copiar e-mail <span aria-hidden="true">⧉</span></button>
+              </div>
+            </section>
+            <!-- CONTATO CONFIGURÁVEL: adicione hidden à section abaixo para ocultar telefone e WhatsApp.
+                 Para remover o número do código público, remova este bloco inteiro antes de publicar. -->
+            <section class="contact-method contact-phone" id="phone-contact" aria-labelledby="titulo-telefone">
+              <h3 class="contact-label" id="titulo-telefone">TELEFONE / WHATSAPP</h3>
+              <a id="contact-phone" class="email-link" href="tel:+5538999470366">(38) 99947-0366</a>
+              <div class="contact-actions">
+                <a class="button button-primary" href="https://wa.me/5538999470366" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+                <a class="button button-secondary" href="tel:+5538999470366">Ligar <span aria-hidden="true">↗</span></a>
+                <button id="copy-phone" class="copy-button" type="button" data-copy-target="contact-phone" data-copy-label="Telefone" hidden>Copiar telefone <span aria-hidden="true">⧉</span></button>
+              </div>
+            </section>
+            <p id="copy-status" class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#inicio" aria-label="Daniel — voltar ao início"><span class="brand-mark" aria-hidden="true">D<span>.</span></span><span>daniel<span class="brand-light">.dev</span></span></a><p>© <span id="current-year">2026</span> Daniel · Desenvolvimento de Sistemas<br><span>Feito com curiosidade, HTML, CSS e JavaScript.</span></p><a class="back-top" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a></div></footer>
+  <dialog class="image-viewer" id="printer-image-dialog" aria-labelledby="printer-image-title">
+    <div class="image-viewer-header">
+      <h2 id="printer-image-title">Impressora 3D</h2>
+      <button class="image-viewer-close" type="button" autofocus>Fechar <span aria-hidden="true">×</span></button>
+    </div>
+    <img src="assets/impressora-3d.png" alt="Impressora 3D Creality com carretel de filamento e painel de controle" width="420" height="420" loading="lazy" decoding="async">
+    <p>Imagem de referência do equipamento.</p>
+  </dialog>
+</body>
+</html>
