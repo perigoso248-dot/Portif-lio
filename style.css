@@ -23,6 +23,7 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 100px; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--font); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+main p { text-align: justify; text-justify: inter-word; }
 button, input { font: inherit; }
 button, a, summary { -webkit-tap-highlight-color: transparent; }
 a { color: inherit; text-decoration: none; }
@@ -294,6 +295,12 @@ h2 { margin-top: 17px; font-size: clamp(30px, 3.1vw, 40px); font-weight: 700; li
 
 /* Experiências práticas e conceitos escolares, mantendo o tema original. */
 .practical-project { background: radial-gradient(ellipse at left top, #70ceee0a, transparent 65%), var(--surface); }
+.green-project { background: radial-gradient(ellipse at left top, #7041d914, transparent 65%), var(--surface); }
+.green-gallery { min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-content: center; gap: 10px; }
+.green-gallery figure { min-width: 0; margin: 0; overflow: hidden; border: 1px solid #3c3150; border-radius: 9px; background: var(--surface-raised); }
+.green-gallery img { display: block; width: 100%; height: 150px; object-fit: cover; }
+.green-gallery figcaption { padding: 7px 9px; color: var(--muted); font-size: 10px; line-height: 1.4; }
+.green-project .featured-project-copy h3 { font-size: clamp(30px, 3.4vw, 43px); }
 .practical-project .featured-project-copy h3 { font-size: clamp(28px, 3vw, 36px); letter-spacing: -1px; }
 .fabrication-visual { min-width: 0; margin: 0; padding: 30px 24px; border: 1px solid #3c3150; border-radius: 12px; background: linear-gradient(145deg, var(--purple-tint), var(--surface)); text-align: center; }
 .fabrication-visual > .project-kind { color: var(--purple); font-family: var(--mono); font-size: 10px; letter-spacing: 1.5px; }
@@ -471,6 +478,7 @@ html.image-view-open { overflow: hidden; }
   .projects-grid { grid-template-columns: minmax(0, 1fr); gap: 23px; margin-top: 24px; }
   .featured-project { margin-top: 27px; }
   .featured-project-main { grid-template-columns: minmax(0, 1fr); gap: 25px; padding: 22px; }
+  .green-gallery img { height: clamp(125px, 38vw, 210px); }
   .edurank-visual { width: min(100%, 380px); justify-self: center; }
   .featured-project-copy h3 { font-size: 36px; }
   .project-slogan { font-size: 14px; }
